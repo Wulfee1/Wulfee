@@ -108,109 +108,94 @@
       Давайте посмотрим, как это выглядит
     </p>
 
-    <table border="1" cellspacing="0" cellpadding="5" width="1100">
-      <caption>
-        Порядок написания CSS-свойств Порядок Группа свойств Используемые свойства
-      </caption>
-      <thead>
+    <table class="table">
+      <caption class="table-caption">Порядок написания CSS-свойств</caption>
+            <thead>
         <tr>
-          <th>
-            Порядок
-          </th>
-          <th>
-            Группа свойств
-          </th>
-          <th>
-            Используемые свойства
-          </th>
+          <th class="table-cell table-header">Порядок</th>
+          <th class="table-cell table-header">Группа свойств</th>
+          <th class="table-cell table-header">Используемые свойства</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>
-            1
-          </td>
-          <td>
-            Позиционирование
-          </td>
-          <td>
-            position: relative; <br>
-            left: 0; <br>
-            right: 0; <br>
-            top: 0; <br>
-            bottom: 0; <br>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            2
-          </td>
-          <td>
-            Блочная модель
-          </td>
-          <td>
-            display: flex; <br>
-            align-items: center; <br>
-            margin: 10px; <br>
-            padding: 10px 20px; <br>
-            border: 1px solid red; <br>
-            width: 200px; <br>
-            height: 100px; <br>
-            box-sizing: border-box; <br>
+          <td class="table-cell">1</td>
+          <td class="table-cell">Позиционирование</td>
+          <td class="table-cell">
+<pre>
+<code>position: relative; <br>
+left: 0; <br>
+right: 0; <br>
+top: 0; <br>
+bottom: 0; <br>
+</code>
+</pre>
           </td>
         </tr>
         <tr>
-          <td>
-            3
-          </td>
-          <td>
-            Типографика
-          </td>
-          <td>
-            font-family: Arial; <br>
-            font-size: 25px; <br>
-            font-style: italic; <br>
-            text-decoration: none; <br>
-            color: red; <br>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            4
-          </td>
-          <td>
-            Оформление
-          </td>
-          <td>
-            background: red; <br>
-            opacity: 1; <br>
+          <td class="table-cell">2</td>
+          <td class="table-cell">Блочная модель</td>
+          <td class="table-cell">
+<pre>
+<code>display: flex; <br>
+align-items: center; <br>
+margin: 10px; <br>
+padding: 10px 20px; <br>
+border: 1px solid red; <br>
+width: 200px; <br>
+height: 100px; <br>
+box-sizing: border-box; <br>
+</code>
+</pre>
           </td>
         </tr>
         <tr>
-          <td>
-            5
+          <td class="table-cell">3</td>
+          <td class="table-cell">Типографика</td>
+          <td class="table-cell">
+<pre>
+<code>font-family: Arial; <br>
+font-size: 25px; <br>
+font-style: italic; <br>
+text-decoration: none; <br>
+color: red; <br>
+</code>
+</pre>
           </td>
-          <td>
-            Анимации
+        </tr>
+        <tr>
+          <td class="table-cell">4</td>
+          <td class="table-cell">Оформление</td>
+          <td class="table-cell">
+<pre>
+<code>background: red; <br>
+opacity: 1; <br>
+</code>
+</pre>
           </td>
-          <td>
-            transform: translateX(5px); <br>
-            animation: shake 0.3s infinite; <br>
+        </tr>
+        <tr>
+          <td class="table-cell">5</td>
+          <td class="table-cell">Анимации </td>
+          <td class="table-cell">
+<pre>
+<code>transform: translateX(5px); <br>
+animation: shake 0.3s infinite; <br>
+</code>
+</pre>
           </td>
         </tr>
       </tbody>
     </table>
 
-    <h2 class="second-title">
-      <abbr title="JavaScript">JS</abbr>
-    </h2>
+    <h2 class="second-title"><abbr title="JavaScript">JS</abbr></h2>
 
     <p class="text">
       Правила JS не сильно отличаются от HTML и CSS, разве что само применение зависит
       от итогового синтаксиса. Например, есть такие правила, присущие только для JS, как:
     </p>
 
-    <ol>
+    <ol class="list">
       <li>
         В массивах первое и последнее значения не отделяется пробелом, после каждой
         запятой необходимо ставить пробел.

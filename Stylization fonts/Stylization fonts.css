@@ -1,4 +1,4 @@
-* {
+* html {
   box-sizing: border-box;
 }
 
@@ -15,6 +15,10 @@ img {
   max-width: 100%;
   width: 1200px;
   height: 500px;
+}
+
+pre {
+  margin: 0 auto;
 }
 
 .main-title {
@@ -73,4 +77,30 @@ img {
 
 .list-item {
   line-height: 240%;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 60px;
+}
+
+.table-caption {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.table-cell {
+  padding: 30px;
+  font-size: 20px;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.table-header {
+  font-weight: bold;
+  color: #3f2aff;
 }
